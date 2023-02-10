@@ -1,0 +1,158 @@
+:root {
+    --main-bg-color: #6060d7;
+    /* --main-bg-color: linear-gradient(90deg, #6060d7 0%, #9499f1 100%); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+header {
+    height: 46px;
+    background-color: var(--main-bg-color);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 23px;
+}
+
+header nav ul li a:hover {
+    /* color: rgb(11, 11, 217); */
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    height: 46px;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style-type: none;
+    
+}
+
+header nav .logo img {
+    width: 83px;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    justify-content:space-around;
+}
+
+header nav .logo {
+    width: 99px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+
+main {
+    min-height: calc(100vh - 46px - 12vh);
+
+}
+
+.search-bar input {
+    margin-top: 4px;
+    width: 273px;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    outline-style: none;
+    padding: 4px;
+}
+
+.search-bar a i {
+    font-size: 20px;
+    color: var(--main-bg-color);
+}
+
+.search-bar a {
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+    right: 49px;
+    top: 2px;
+    padding: 5px 9px 5px 10px;
+    background-color: white;  
+}
+
+.search-bar a i:hover {
+    font-size: 21px;   
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider img {
+    width: 95vw;
+    height: 42vh;
+    margin-top: 5px;
+} 
+
+/* .container .slider {
+    padding: 0 5px;
+} */
+
+.card {
+    margin: 8px 39px;
+    box-shadow: 10px 8px 5px rgb(163, 161, 161);
+}
+
+.lines, p {
+    width: 200px;
+    text-align: center;
+}
+
+#discount {
+    color: green;
+    font-size: 13px;
+}
+
+#grap {
+    font-size: 10px;
+}
+
+.card_flex {
+    display: flex;
+    margin-top: 5px;
+}
+
+.card_item {
+    margin: 17px 25px;
+
+}
+
+.card_item:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.lines {
+    margin-top: 30px;
+}
+
+.heading_tag {
+    margin-top: 35px;
+    font-size: 30px;
+}
